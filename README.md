@@ -9,6 +9,7 @@ No contiene una estructura consistente ni una paleta de colores agradable, mezcl
 
 #### 1- COHEREÉNCIA Y COHESIÓN VISUAL
 (11) La página utiliza colores muy fuertes y llamativos como colores fosforitos (verde, amarillo).
+
 (12) La página principal tiene mucho 'ruido' mucha información de golpe para el usuario y todo muy amontonado entre sí.
 
 #### 2 - CLARIDAD 
