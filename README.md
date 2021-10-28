@@ -8,7 +8,7 @@ Actualmente, el sitio web dispone de una gran multitud de opciones, botones, tar
 No contiene una estructura consistente ni una paleta de colores agradable, mezclando colores chillones y otros muy apagados; las diferentes secciones no siguen ningún patrón distinguible.
 
 #### 1- COHEREÉNCIA Y COHESIÓN VISUAL
-(11) La página utiliza colores muy fuertes y llamativos como colores fosforitos (verde, amarillo) 
+(11) La página utiliza colores muy fuertes y llamativos como colores fosforitos (verde, amarillo).
 (12) La página principal tiene mucho 'ruido' mucha información de golpe para el usuario y todo muy amontonado entre sí.
 
 #### 2 - CLARIDAD 
