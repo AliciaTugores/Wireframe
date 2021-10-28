@@ -34,8 +34,9 @@ No contiene una estructura consistente ni una paleta de colores agradable, mezcl
 ## MEJORAS
 
 Hemos insertado varios cambios importantes en la página web. Empezamos fijando el menú desplegable, de esta manera el usuario puede acceder a cualquier otro apartado del menú sin preocuparse de hacer scroll y también hemos añadido el título de la sección donde se haya el usuario, así controla de mejor manera dónde está en todo momento. 
-En cuanto a los colores, hemos escogido una paleta de colores más suaves y agradables a la vista pero que sigan cumpliendo su función y combinen con la compañía.
+En cuanto a los colores, escogeremos una paleta de colores más suaves y agradables a la vista del usuario pero que sigan combinando con marca de la compañía.
 Hablando de estructuración de la página web, hemos simplificado la información de la página principal, dejando solo lo más importante, lo primero que debe ver el usuario:
+
   - líneas
   - avisos
   - "localízame" --> consiste en una funcionalidad para conocer las paradas cercanas mediante la geolocalización y los buses que pasan por dichas paradas.
