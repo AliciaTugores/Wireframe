@@ -7,7 +7,7 @@ https://www.figma.com/file/I6E15i1QVCSLZef4gPWAPR/Untitled?node-id=0%3A1
 Actualmente, el sitio web dispone de una gran multitud de opciones, botones, tarjetas y colores, está muy sobrecargada y no ofrece una navegación intutiva. El exceso de contenido puede confundir al usuario y aumenta las posibilidades de errores.
 No contiene una estructura consistente ni una paleta de colores agradable, mezclando colores chillones y otros muy apagados; las diferentes secciones no siguen ningún patrón distinguible.
 
-#### 1- COHEREÉNCIA Y COHESIÓN VISUAL
+#### 1- COHERÉNCIA Y COHESIÓN VISUAL
 (11) La página utiliza colores muy fuertes y llamativos como colores fosforitos (verde, amarillo).
 
 (12) La página principal tiene mucho 'ruido' mucha información de golpe para el usuario y todo muy amontonado entre sí.
@@ -20,10 +20,10 @@ No contiene una estructura consistente ni una paleta de colores agradable, mezcl
 ![Captura de pantalla de 2021-10-28 19-28-10](https://user-images.githubusercontent.com/72273754/139305426-1668ceaf-8f0a-4919-b039-bcc6cf0c9668.png)
 
 #### 3 - AYUDAMOS AL USUARIO 
-(33) El menú no es fijo y eso incomoda y desubica al usuario ya que al hacer scroll para seguir viendo el contenido del apartado, para moverse por la página debe volver a hacer scroll hasta arribad el todo para encontrar de nuevo el menú.
+(33) El menú no es fijo y eso incomoda y desubica al usuario ya que al hacer scroll para seguir viendo el contenido del apartado, para moverse por la página debe volver a hacer scroll hasta arriba del todo para encontrar de nuevo el menú.
 
 #### 4 - ESTANDARIZACIÓN
-(41) Los avisos están amontonados en un carousel y eso deriva a que el usuario no reciba toda la información.
+(41) Los avisos están amontonados en un carrusel y eso deriva a que el usuario no reciba toda la información.
 
 ![Captura de pantalla de 2021-10-27 18-13-19](https://user-images.githubusercontent.com/72273754/139105289-6da45a6c-356f-4d9c-8d10-c423a96875ed.png)
 
