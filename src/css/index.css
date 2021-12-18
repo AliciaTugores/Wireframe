@@ -7,10 +7,15 @@
     font-weight: 500;
 }
 
+body{
+    background-color: #575757;
+}
+
 
 /***************************************************/
 /*Header Rules*/
 .header-container {
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 3fr;
     background: #2323;
@@ -35,5 +40,111 @@
     max-height: 2rem;
 }
 
+#hamburger-button{
+    display: none;
+}
+
+
+@media (max-width: 575px) {
+
+    #hamburger-button{
+        display: flex;
+    }
+
+    .navbar-item{
+        display: none;
+    }
+
+    .links-list img {
+        max-width: 1rem;
+        max-height: 1rem;
+    }
+
+    .header-container .logo-item {
+        max-width: 3rem;
+    }
+    
+  }
 /*Header Rules*/
+/***************************************************/
+/***************************************************/
+
+
+
+/* LINEAS PAGE */
+/***************************************************/
+
+.lines-wrapper{
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.lines-wrapper h3{
+    font-size: clamp(2rem,3vw,4rem);
+    margin-bottom: 2rem;
+}
+
+.lines{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 4rem;
+    grid-template-columns: repeat(auto-fit,minmax(min(100%,6rem),1fr));
+
+
+}
+
+.lines__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background: #BDBDBD;
+    color: black;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    border-radius: 1rem;
+}
+
+
+.routes-wrapper{
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.routes-wrapper h3{
+    font-size: clamp(2rem,3vw,4rem);
+    margin-bottom: 2rem;
+}
+
+.routes{
+    display: grid;
+    grid-auto-rows: 6rem;
+    grid-template-columns: repeat(auto-fit,minmax(min(100%,7.5rem),1fr));
+    gap: 3rem;
+}
+
+.routes__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+        
+    background: #BDBDBD;
+    color: black;
+    font-size: clamp(1rem, 2.5vw, 1rem);
+    border-radius: 1rem;
+}
+
+.routes__item h4{
+    font-size: 1.5rem;
+}
+
+/***************************************************/
 /***************************************************/
