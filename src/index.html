@@ -8,17 +8,100 @@
     <title>Página de Inicio - TIB</title>
 </head>
 <body>
-<header class="header-container">
-    <img class="logo-item" src="/src/images/tib-logo.svg" alt="Logo TIB">
-    <div class="links-list">
-        <a class="navbar-item">Inicio</a>
-        <a class="navbar-item">Lineas</a>
-        <a class="navbar-item">Estaciones</a>
-        <a class="navbar-item">Noticias</a>
-        <a class="navbar-item">Tarjeta</a>
-        <img src="/src/images/user-icon.svg" alt="Logo TIB">
-        <img src="/src/images/locale-icon.svg" alt="Logo TIB">
+    <header class="header-container">
+        <img class="logo-item" src="/src/images/tib-logo.svg" alt="Logo TIB">
+        <div class="links-list">
+            <a class="navbar-item">Inicio</a>
+            <a class="navbar-item">Lineas</a>
+            <a class="navbar-item">Estaciones</a>
+            <a class="navbar-item">Noticias</a>
+            <a class="navbar-item">Tarjeta</a>
+            <img src="/src/images/user-icon.svg" alt="Logo TIB">
+            <img src="/src/images/locale-icon.svg" alt="Logo TIB">
+        </div>
+    </header>
+
+    <div class="desktop">
+        <div class="slide">
+			<div class="slide-inner">
+                
+				<input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+				<div class="slide-item">
+					<img src="images/bus1.png">
+				</div>
+
+				<input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="images/bus2.jpg">
+				</div>
+
+				<input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+				<div class="slide-item">
+					<img src="images/bus3.jpg">
+				</div>
+
+				<label for="slide-3" class="slide-control prev control-1">‹</label>
+				<label for="slide-2" class="slide-control next control-1">›</label>
+				<label for="slide-1" class="slide-control prev control-2">‹</label>
+				<label for="slide-3" class="slide-control next control-2">›</label>
+				<label for="slide-2" class="slide-control prev control-3">‹</label>
+				<label for="slide-1" class="slide-control next control-3">›</label>
+				
+                <ol class="slide-indicador">
+					<li>
+						<label for="slide-1" class="slide-circulo">•</label>
+					</li>
+					<li>
+						<label for="slide-2" class="slide-circulo">•</label>
+					</li>
+					<li>
+						<label for="slide-3" class="slide-circulo">•</label>
+					</li>
+				</ol>
+			</div>
+		</div>
+
+		<div class="lines">
+			<div class="lines-tittle">
+				<h2>LINEAS</h2>
+			</div>
+
+			<div class="lines-container">
+				<div class="icon-container">
+					<img class="icon-lines" src="images/mdi_bus.svg"></img>
+					<p>BUS</p>
+				</div>
+
+				<div class="icon-container">
+					<img class="icon-lines" src="images/mdi_train.svg"></img>
+					<p>TREN</p>
+				</div>
+
+				<div class="icon-container">
+					<img class="icon-lines" src="images/mdi_subway.svg"></img>
+					<p>METRO</p>
+				</div>
+
+				<div class="icon-container">
+					<img class="icon-lines" src="images/Vector.svg"></img>
+					<p>AEROTIB</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="location">
+			
+
+		</div>
+
+
+
+
+
+
+
     </div>
-</header>
+
+
 </body>
 </html>
