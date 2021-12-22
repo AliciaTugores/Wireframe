@@ -1,24 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/index.css">
-    <title>Página de Inicio - TIB</title>
-</head>
-<body>
-<header class="header-container">
-    <img class="logo-item" src="/src/images/tib-logo.svg" alt="Logo TIB">
-    <div class="links-list">
-        <a class="navbar-item">Inicio</a>
-        <a class="navbar-item">Lineas</a>
-        <a class="navbar-item">Estaciones</a>
-        <a class="navbar-item">Noticias</a>
-        <a class="navbar-item">Tarjeta</a>
-        <img src="/src/images/user-icon.svg" alt="Logo TIB">
-        <img src="/src/images/locale-icon.svg" alt="Logo TIB">
-    </div>
-</header>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/src/css/index.css">
+        <title>Página de Inicio - TIB</title>
+    </head>
+    <body>
+        <div class="desktop">
+            <div class="slide">
+                <div class="slide-inner">
+                    
+                    <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <img src="images/bus.jpeg" alt="bus-slider1">
+                    </div>
+
+                    <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="images/bus2.jpeg" alt="bus-slider2">
+                    </div>
+
+                    <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="images/bus3.jpeg" alt="bus-slider3">
+                    </div>
+
+                    <label for="slide-3" class="slide-control prev control-1">‹</label>
+                    <label for="slide-2" class="slide-control next control-1">›</label>
+                    <label for="slide-1" class="slide-control prev control-2">‹</label>
+                    <label for="slide-3" class="slide-control next control-2">›</label>
+                    <label for="slide-2" class="slide-control prev control-3">‹</label>
+                    <label for="slide-1" class="slide-control next control-3">›</label>
+                    
+                    <ol class="slide-indicador">
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="lines-home">
+                <div class="tittle">
+                    <h2>LINEAS</h2>
+                </div>
+                <div class="lines-container">
+                    <div class="icon-container">
+                        <img class="icon-lines" src="images/mdi_bus.svg" alt="icon-lines">
+                        <p>BUS</p>
+                    </div>
+
+                    <div class="icon-container">
+                        <img class="icon-lines" src="images/mdi_train.svg" alt="icon-lines">
+                        <p>TREN</p>
+                    </div>
+
+                    <div class="icon-container">
+                        <img class="icon-lines" src="images/mdi_subway.svg" alt="icon-lines">
+                        <p>METRO</p>
+                    </div>
+
+                    <div class="icon-container">
+                        <img class="icon-lines" src="images/Vector.svg" alt="icon-lines">
+                        <p>AEROTIB</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="location-home">
+                <!-- <div class="tittle"></div>
+                    <h2>LOCALIZAME</h2>
+                </div> -->
+                <div class="location-item">
+                    <img src="/src/images/direccion.svg" alt="icon location">
+                    <img src="/src/images/search.svg" alt="icon search">
+                </div>
+            </div>
+        
+
+            <div class="warnings">
+                <div class="tittle">
+                    <h2>AVISOS</h2>
+                </div>
+                <div class="warning-item">
+                    <img src="images/warning.svg" alt="warning1">
+                    <p>1 de enero: cambio de horarios en la L501</p>
+                </div>
+                <div class="warning-item">
+                    <img src="images/warning.svg" alt="warning2">
+                    <p>Normas de ocupación en los servicios de transporte público</p>
+                </div>
+                <div class="warning-item">
+                    <img src="images/warning.svg" alt="warning3">
+                    <p>6 de diciembre: Translado de parada en Santa Ponça</p>
+                </div>
+                <div class="warning-item">
+                    <img src="images/warning.svg" alt="warning4">
+                    <p>Jueves 21 de octubre: Translado temporal de parada en Cala Figuera</p>
+                </div>
+            </div>
+
+            <div class="news">
+                <div class="tittle">
+                    <h2>NOTICIAS</h2>
+                </div>
+                <div class="news-container">
+                    <div class="news-item">
+                        <img src="images/noticia1.jpeg" alt="new">
+                        <div class="news-information">
+                            <p>1 de enero: cambio de horarios próximamente en la L501</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <img src="images/noticia2.jpeg" alt="new">
+                        <div class="news-information">
+                            <p>Normas de ocupación en los servicios de transporte público</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <img src="images/noticia3.jpeg" alt="new">
+                        <div class="news-information">
+                            <p>6 de diciembre: Translado de parada en Santa Ponça</p>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <img src="images/noticia4.png" alt="new">
+                        <div class="news-information">
+                            <p>Jueves 21 de octubre: Translado temporal de parada en Cala Figuera</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
