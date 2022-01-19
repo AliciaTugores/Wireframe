@@ -10,7 +10,42 @@
 /* body{
     background-color: #575757;
 }
- */
+*/
+
+
+
+
+
+/*  */
+
+ul.menuweb {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    width: 100%;
+  }
+  
+  ul.menuweb li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px #000 solid;
+  }
+  
+  /* Change the link color on hover */
+  ul.menuweb li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+
+/*  */
+
+
 
 /***************************************************/
 /*Header Rules*/
